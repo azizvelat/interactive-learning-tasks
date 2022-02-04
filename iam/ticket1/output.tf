@@ -1,6 +1,7 @@
 output bobs_arn {
-  # Your code goes here 
+  value = aws_iam_user.bob.arn
 }
+
 output bobs_unique_id {
-  # Your code goes here 
+  value = aws_iam_user.bob.unique_id
 }

@@ -1,16 +1,16 @@
 output "key_name" {
-  # Your code goes here
+  value = aws_key_pair.ilearning.key_name
 }
 
-output "id" {
-  # Your code goes here
+output "key_id" {
+  value = aws_key_pair.ilearning.key_pair_id
 }
 
 output "region" {
-  # Your code goes here
+  value = "us-east-2"
 }
 
 
 output "keys_arn" {
-  # Your code goes here
+  value = aws_key_pair.ilearning.arn
 }

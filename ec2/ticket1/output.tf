@@ -1,12 +1,12 @@
 output "instance_id" {
-  # Your code goes here
+  value = "aws_instance.instance_id"
 }
-
 output "public_ip" {
-   # Your code goes here
+   value = "aws_instance.public_ip"
 }
-
-
-output "public_dns" {
-  # Your code goes here
+output "region" {
+  value = "aws_instance.region"
+}
+output "az" {
+  value = "aws_instance.az"
 }
